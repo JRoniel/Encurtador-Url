@@ -1,0 +1,1 @@
+//Model para receber e armazenar urls curtas direcionadas para Longas
