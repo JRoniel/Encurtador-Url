@@ -11,12 +11,12 @@
     </style>
 </head>
 <body>
-    <form action="/encoder" method="post">
+    <form action="/encoder" method="post" enctype="application/x-www-form-urlencoded">
         Url longa: <input type="text" name="url" id="url" placeholder="https://google.com"> <br>
         Url curta: <input type="text" name="url_short" id="url_short"> <br>
         Gerar automaticamente: <input type="checkbox" checked name="url_generator" id="url_generator"> <br>
-        <input type="submit" value="encurtar">
-    </form>
+        <button type="submit">enviar</button>
+    </form>    
     <script src="../public/script.js"></script>
 </body>
 </html>
