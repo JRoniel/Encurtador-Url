@@ -1,0 +1,29 @@
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background: #f5ebe0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.campo {
+  margin-top: 5rem;
+  padding: 2rem;
+  
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.campo .campo-url {
+  display: flex;
+  flex-direction: column;
+}
+.campo input {
+  margin-bottom: 10px;
+}
+.campo-url-curta{
+   display: none;
+}
